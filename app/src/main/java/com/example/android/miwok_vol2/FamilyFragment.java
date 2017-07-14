@@ -34,7 +34,7 @@ public class FamilyFragment extends Fragment {
 
         mAudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
-        final ArrayList<Word> words = new ArrayList<Word>();
+        final ArrayList<Word> words = new ArrayList<>();
 
         words.add(new Word("father", "әpә",R.drawable.family_father,R.raw.family_father));
         words.add(new Word("mother", "әṭa",R.drawable.family_mother,R.raw.family_mother));

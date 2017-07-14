@@ -34,7 +34,7 @@ public class NumbersFragment extends Fragment {
 
         mAudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
-        final ArrayList<Word> words = new ArrayList<Word>();
+        final ArrayList<Word> words = new ArrayList<>();
 
         // here we are creating new objects and adding it to the arraylist named words
         words.add(new Word("one","lutti",R.drawable.number_one, R.raw.number_one));

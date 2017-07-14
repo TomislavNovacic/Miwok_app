@@ -5,10 +5,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-/**
- * Created by Tomi on 24.4.2017..
- */
-
 public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
