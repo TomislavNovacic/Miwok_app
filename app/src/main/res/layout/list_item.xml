@@ -16,10 +16,10 @@
         android:layout_height="@dimen/list_item_height"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_toRightOf="@id/image_view_1"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/image_view_1"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
         android:background="@color/category_colors"
         android:id="@+id/text_container">
 
